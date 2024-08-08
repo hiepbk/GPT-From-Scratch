@@ -15,7 +15,7 @@ def download_data(input_file_path: str):
         with open(input_file_path, 'w') as f:
             f.write(requests.get(data_url).text)
         print("Dataset is downloaded to {}".format(input_file_path))
-#$sfsdf
+
 
 def return_dataset(
         data_path: int, 
